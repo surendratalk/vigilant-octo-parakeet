@@ -1,0 +1,247 @@
+Naming Conventions
+Class
+
+StudentClass
+
+Method
+
+GetMarks
+
+Local variable
+
+firstName
+
+Private variable
+
+avgMarks
+
+Constant
+
+Percentile
+
+Data types
+Int
+
+Integer values like 1234, 10000
+
+Double
+
+64-bit floating-point, 3.145644
+
+Float
+
+Floating point number, 3.1454
+
+String
+
+Set of characters, “Welcome.”
+
+Byte
+
+8bit unsigned integer
+
+Char
+
+16 bit Unicode character, ‘A.’
+
+Long
+
+64 bit signed integer, -9.0789
+
+Decimal
+
+High precision decimal numbers
+
+Bool
+
+True or false Boolean value
+
+Enums
+
+Value data type contains its value
+
+Struct
+
+value type that is used to represent a record
+
+Initialisation of variables
+
+int i = 7;
+byte b = 255;
+String s = “hackr.io”;
+char c = ‘h’;
+Constant values
+
+const String lastDayOfWeek = “Friday”;
+String Data type conversion
+Method
+
+Description
+
+Example
+
+AsInt(),
+IsInt()
+
+Convert string into integer
+
+Check If the input is int
+
+intVal = str.AsInt();
+
+str.IsInt()
+
+AsFloat(),
+
+IsFloat()
+
+Convert string into float
+
+Check if the input is float
+
+floatVal = str.AsFloat();
+
+str.IsFloat()
+
+AsDecimal()
+
+IsDecimal()
+
+Convert string into decimal
+
+Check if input is decimal
+
+decVal = str.AsDecimal();
+
+str.IsDecimal()
+
+AsDateTime()
+
+IsDateTime()
+
+Convert string into datetime type
+
+Check if input is date-time
+
+dateVal = str.AsDateTime();
+
+ 
+
+str.isDateTime();
+
+AsBool()
+IsBool()
+
+Convert string into Boolean
+
+Check if input is Boolean
+
+boolVal = str.AsBool();
+
+str.IsBool();
+
+ToString()
+
+Convert another data type like int, array, list etc into String
+
+myVal = 1111;
+
+strVal = myVal.ToString();
+
+Operators
+Operator
+
+Description
+
+=
+
+Assigns variable value. (i = 10)
+
++
+
+Adds a value or variable. (i + j) or (i + 3)
+
+-
+
+Subtracts values or variables. (i – j)
+
+*
+
+Multiplies values or variables. (i*j)
+
+/
+
+Divides values or variables. (i/j)
+
++=
+
+Increments a variable. ( i+=1)
+
+-=
+
+Decrements a variable. (i-=1)
+
+==
+
+Equality. Returns true if values are equal. (i==10)
+
+!=
+
+Inequality. Returns true if values are not equal. (I != 10)
+
+<
+
+Less Than (i < 5)
+
+>
+
+Greater Than (i > 5)
+
+<=
+
+Less Than or Equal to (i <= 5)
+
+>=
+
+Greater than equal to (i >= 5)
+
++
+
+String concatenation (“Welcome to ” + websiteName)
+
+.
+
+Call methods, constant variables etc..
+
+arrVal.ToString()
+
+()
+
+Calculations, passing parameters etc…
+
+(i+10)*(i-10); multiply(i, j)
+
+[]
+
+Access values in arrays or collections. name[i]
+
+!
+
+Reversing Boolean value
+
+if (!isMatching)
+
+&&
+
+Logical AND
+
+if (isSingle && isMatching)
+
+sizeof()
+
+returns the size of a data type
+
+typeof()
+
+returns the type of object – string, integer etc…
+
